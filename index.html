@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sachuzfish</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="shortcut icon"  href="https://m.media-amazon.com/images/I/71TB03gpuxL.jpg" type="image/x-icon">
+   <style>
+        #carouselExampleSlidesOnly{
+            height:100vh
+            
+        }
+        .carousel-item{
+          height:calc(100vh - 1px)
+        }
+        .img-height{
+          height: 100%;
+          object-fit: fill;
+        }
+    </style>
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-black fixed-top z-1 py-3 container-fluid">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">SachuZ Fish</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item text-white">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link text-white" href="#">Order</a>
+          </li>
+          <li class="nav-item dropdown text-white">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+             Contact Us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">+91 9746847327</a></li>
+              <li><a class="dropdown-item" href="#">+91 8086200861</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+        </ul>
+       </div>
+    </div>
+  </nav> 
+<!-- navbar
+
+<!-- carousel -->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide mt-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active img-fluid">
+      <img src="https://media.istockphoto.com/id/929750558/photo/mackerel-fish.jpg?s=612x612&w=0&k=20&c=1E99S5flvjyVpzp0196YwNhOT_w91CBCBhcdz3Y8T5Y=" class="d-block w-100 img-height" alt="...">
+    </div>
+    <div class="carousel-item img-fluid">
+      <img src="https://c8.alamy.com/comp/2D4Y5BC/sea-food-fish-market-in-india-raw-mackerel-fish-for-sale-pelagic-fish-fishing-in-cochin-or-kovalam-coastal-area-of-kerala-india-only-livelihood-2D4Y5BC.jpg" class="d-block w-100 img-height" alt="...">
+    </div>
+    <div class="carousel-item img-fluid">
+      <img src="https://static.freshtohome.com/media/catalog/product/cache/1/image/18ae109e34f485bd0b0c075abec96b2e/e/m/emperor-whole.jpg" class="d-block w-100 img-height" alt="...">
+    </div>
+  </div>
+</div>
+<!-- carousel -->
+<div id="oder" class="bg-dark-subtle  pt-2">
+  <h1 class="text-center text-decoration-underline text-bg-danger py-2">Order</h1>
+  <div id="booking" class="d-flex flex-column justify-content-center align-items-start">
+    <h3 class="text-center m-2">Booking:-</h3>
+    <form action="https://script.google.com/macros/s/AKfycbyh5xKZ2unq1UclPzH8HtBmupvcDj4MyCO0Th05vcNoB6NbSGNB0S854FhfRlmEA9Rx/exec" class=" ps-5" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" name="Name" id="name" required placeholder="enter your name"> <br><br>
+      <label for="mobile">Mobile</label><br>
+      <input type="text" name="Mobile" id="mobile" required placeholder="enter mobile number"><br><br>
+      <label for="address">Address:</label><br>
+      <textarea name="Address" id="address" cols="30" rows="8" required placeholder="please enter your address"></textarea><br>
+      <label for="pin">PIN Code:</label><br>
+      <input type="text" name="Pin" id="pin" required placeholder="Pin"><br> <br>
+      <a href="index.html"><input type="submit" class="mb-5 btn btn-outline-danger" ></a>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
